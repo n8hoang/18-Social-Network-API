@@ -18,7 +18,12 @@ To get started, clone the repository and run `npm install` to install all the ne
 
 ## Usage
 
-After installation, invoke the application by running `npm start`. The server will start, and Mongoose models will be synced to the MongoDB database. Utilize API routes such as `/api/users` and `/api/thoughts` to interact with the application via a platform like Insomnia or Postman to test the full suite of CRUD operations.
+Once you have completed the installation of the necessary dependencies, you should seed the database with initial data. This allows you to test the application's functionalities without having to manually enter data. To seed the database, run the following command: `npm run seed`
+
+This will execute the seed script defined in package.json, which populates the MongoDB database with predefined data sets.
+After seeding the database, you can start the server by running: `npm start`
+
+
 
 ## License
 
